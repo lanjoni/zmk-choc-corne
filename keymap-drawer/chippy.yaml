@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: corne}
+layout: {zmk_keyboard: chippy}
 layers:
   default:
   - $$mdi:keyboard-tab$$
@@ -116,7 +116,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: fps, h: toggle}
   - _
   - +
   - '{'
@@ -129,3 +129,46 @@ layers:
   - RET
   - {type: held}
   - $$mdi:apple-keyboard-option$$
+  fps:
+  - $$mdi:keyboard-tab$$
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - T
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-shift$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - G
+  - F3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F5
+  - F6
+  - $$mdi:apple-keyboard-control$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
+  - X
+  - C
+  - $$mdi:keyboard-space$$
+  - RET
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-command$$
