@@ -16,4 +16,4 @@ jobs:
       config_path: "keymap_drawer.config.yaml"
       output_folder: "keymap-drawer"
       parse_args: ""
-      draw_args: ""
+      draw_args: "-z corne"
