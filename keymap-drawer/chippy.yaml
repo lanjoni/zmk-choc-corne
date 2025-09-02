@@ -130,7 +130,7 @@ layers:
   - {type: held}
   - $$mdi:apple-keyboard-option$$
   fps:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - '1'
   - '2'
   - '3'
@@ -142,19 +142,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:keyboard-esc$$
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
   - R
   - T
-  - G
+  - F2
   - F3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F5
   - F6
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
@@ -166,7 +166,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: fps, h: toggle}
-  - X
+  - $$mdi:apple-keyboard-control$$
   - C
   - $$mdi:keyboard-space$$
   - RET
